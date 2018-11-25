@@ -3,7 +3,7 @@ Aims to solve FrozenLake with various RL-Techniques at a beginner level.
 
 ## Deterministic
 - [x] Q-Tables
-- [ ] Deep Q Learning(no fixed Targets, no Memory, no Double-Q)
+- [x] Deep Q Learning(no fixed Targets, no Memory, no Double-Q)
 - [ ] Policy Gradient
 
 The remaining Techniques won't be tested in this simple case.
