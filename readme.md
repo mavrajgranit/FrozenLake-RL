@@ -13,7 +13,9 @@ To be researched in depth.
 Current guess is estimating a distribution of actions instead of reward-values.
 Maybe Policy Gradients or N-Step Q-Learning could solve it?
 
-# Results
+# Results 
+Exploration and Learning Rate are big factors of convergence-time and -probability 
+
 ## Q-Tables Deterministic 4x4
 <!-- ![qtablemeanreward](./Plots/QTables/meanreward.png) ![qtablemeanscore](./Plots/QTables/meanscore.png) ![qtableqvalues](./Plots/QTables/qvalues.png) -->
 
@@ -28,4 +30,18 @@ Maybe Policy Gradients or N-Step Q-Learning could solve it?
   <img src="./Plots/QTables/8x8det/reward.png" width="425" />
   <img src="./Plots/QTables/8x8det/meanreward.png" width="425" /> 
   <img src="./Plots/QTables/8x8det/meanqvalue.png" width="425" />
+</p>
+
+## Q-Learning Deterministic 4x4
+<p float="left">
+  <img src="./Plots/QLearning/4x4det/reward.png" width="425" />
+  <img src="./Plots/QLearning/4x4det/meanreward.png" width="425" /> 
+  <img src="./Plots/QLearning/4x4det/meanqvalue.png" width="425" />
+</p>
+
+## Q-Learning Deterministic 8x8
+<p float="left">
+  <img src="./Plots/QLearning/8x8det/reward.png" width="425" />
+  <img src="./Plots/QLearning/8x8det/meanreward.png" width="425" /> 
+  <img src="./Plots/QLearning/8x8det/meanqvalue.png" width="425" />
 </p>

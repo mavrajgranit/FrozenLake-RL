@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43d3aad2-73fb-470c-a812-cf2820c2a9af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/QTables_Deterministic_4x4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QTables_Deterministic_8x8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLearning_Deterministic_4x4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLearning_Deterministic_8x8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/QTables/8x8det/meanqvalue.png" beforeDir="false" afterPath="$PROJECT_DIR$/Plots/QTables/8x8det/meanqvalue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/QTables/8x8det/meanreward.png" beforeDir="false" afterPath="$PROJECT_DIR$/Plots/QTables/8x8det/meanreward.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/QTables/8x8det/reward.png" beforeDir="false" afterPath="$PROJECT_DIR$/Plots/QTables/8x8det/reward.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QTables_Deterministic_8x8.py" beforeDir="false" afterPath="$PROJECT_DIR$/QTables_Deterministic_8x8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,8 +18,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Frozenlake_RL$QLearning_Deterministic_8x8.coverage" NAME="QLearning_Deterministic_8x8 Coverage Results" MODIFIED="1543173398593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Frozenlake_RL$QTables_Deterministic_4x4.coverage" NAME="QTables_Deterministic_4x4 Coverage Results" MODIFIED="1543167720635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Frozenlake_RL$QTables_Deterministic_8x8.coverage" NAME="QTables_Deterministic_8x8 Coverage Results" MODIFIED="1543167938584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Frozenlake_RL$QLearning_Deterministic_4x4.coverage" NAME="QLearning_Deterministic_4x4 Coverage Results" MODIFIED="1543169560217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Frozenlake_RL$QTables_Deterministic_8x8.coverage" NAME="QTables_Deterministic_8x8 Coverage Results" MODIFIED="1543173491442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="798566644">
@@ -31,41 +51,41 @@
         <counts>
           <entry key="md" value="1" />
           <entry key="png" value="7" />
-          <entry key="py" value="2" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="7" />
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="2" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="md" value="892" />
-          <entry key="py" value="1158" />
-          <entry key="txt" value="14" />
+          <entry key="md" value="1001" />
+          <entry key="py" value="1374" />
+          <entry key="txt" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="892" />
-          <entry key="PLAIN_TEXT" value="36" />
-          <entry key="Python" value="1158" />
+          <entry key="Markdown" value="1001" />
+          <entry key="PLAIN_TEXT" value="101" />
+          <entry key="Python" value="1374" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="476">
-                <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+              <first_editor relative-caret-position="306">
+                <caret line="18" selection-start-line="18" selection-end-line="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -73,22 +93,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/QTables_Deterministic_4x4.py">
+        <entry file="file://$PROJECT_DIR$/QLearning_Deterministic_8x8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="121" column="1" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
+            <state relative-caret-position="2040">
+              <caret line="120" column="1" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/QTables_Deterministic_8x8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="304">
+              <caret line="113" column="1" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -113,9 +133,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/QTables.py" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/QTables_Deterministic_4x4.py" />
+        <option value="$PROJECT_DIR$/QLearning_Deterministic_4x4.py" />
+        <option value="$PROJECT_DIR$/QLearning_Deterministic_8x8.py" />
         <option value="$PROJECT_DIR$/QTables_Deterministic_8x8.py" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -147,26 +169,6 @@
               <item name="Frozenlake-RL" type="b2602c69:ProjectViewProjectNode" />
               <item name="Frozenlake-RL" type="462c0819:PsiDirectoryNode" />
               <item name="Plots" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Frozenlake-RL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Frozenlake-RL" type="462c0819:PsiDirectoryNode" />
-              <item name="Plots" type="462c0819:PsiDirectoryNode" />
-              <item name="QTables" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Frozenlake-RL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Frozenlake-RL" type="462c0819:PsiDirectoryNode" />
-              <item name="Plots" type="462c0819:PsiDirectoryNode" />
-              <item name="QTables" type="462c0819:PsiDirectoryNode" />
-              <item name="4x4det" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Frozenlake-RL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Frozenlake-RL" type="462c0819:PsiDirectoryNode" />
-              <item name="Plots" type="462c0819:PsiDirectoryNode" />
-              <item name="QTables" type="462c0819:PsiDirectoryNode" />
-              <item name="8x8det" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -200,6 +202,50 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.QTables_Deterministic_8x8">
+    <configuration name="QLearning_Deterministic_4x4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Frozenlake-RL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QLearning_Deterministic_4x4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="QLearning_Deterministic_8x8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Frozenlake-RL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QLearning_Deterministic_8x8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="QTables_Deterministic_4x4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Frozenlake-RL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -247,10 +293,14 @@
     <list>
       <item itemvalue="Python.QTables_Deterministic_4x4" />
       <item itemvalue="Python.QTables_Deterministic_8x8" />
+      <item itemvalue="Python.QLearning_Deterministic_4x4" />
+      <item itemvalue="Python.QLearning_Deterministic_8x8" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.QTables_Deterministic_8x8" />
+        <item itemvalue="Python.QLearning_Deterministic_8x8" />
+        <item itemvalue="Python.QLearning_Deterministic_4x4" />
         <item itemvalue="Python.QTables_Deterministic_4x4" />
       </list>
     </recent_temporary>
@@ -280,7 +330,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543018997049</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added deterministic Q-Table implementation(4x4, 8x8)">
+      <created>1543168119095</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543168119095</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added deterministic Q-Table implementation(4x4, 8x8)">
+      <created>1543168375772</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543168375772</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -301,7 +365,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33844468" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33844468" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -310,13 +374,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31995663" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31982476" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32968238" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="319" y="182" width="819" height="734" id="SciView" order="3" show_stripe_button="false" type="FLOATING" weight="0.26477024" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info active="true" anchor="right" x="200" y="212" width="819" height="734" id="SciView" order="3" type="FLOATING" visible="true" weight="0.26477024" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32896304" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +392,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Added deterministic Q-Table implementation(4x4, 8x8)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added deterministic Q-Table implementation(4x4, 8x8)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Plots/QTables/4x4det/meanqvalue.png">
@@ -340,33 +405,53 @@
     <entry file="file://$PROJECT_DIR$/Plots/QTables/4x4det/reward.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="476">
-            <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/QTables_Deterministic_4x4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1566">
+          <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/QTables_Deterministic_4x4.py">
+    <entry file="file://$PROJECT_DIR$/QLearning_Deterministic_4x4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="121" column="1" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
+        <state relative-caret-position="2176">
+          <caret line="128" column="1" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QTables_Deterministic_8x8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="304">
+          <caret line="113" column="1" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QLearning_Deterministic_8x8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="120" column="1" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="306">
+            <caret line="18" selection-start-line="18" selection-end-line="18" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
