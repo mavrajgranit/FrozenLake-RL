@@ -23,6 +23,7 @@ Maybe Policy Gradients or N-Step Q-Learning could solve it?
   <img src="./Plots/QTables/4x4det/meanqvalue.png" width="425" />
 </p>
 
+## Q-Tables Deterministic 8x8
 <p float="left">
   <img src="./Plots/QTables/8x8det/reward.png" width="425" />
   <img src="./Plots/QTables/8x8det/meanreward.png" width="425" /> 
