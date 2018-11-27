@@ -4,9 +4,9 @@ Aims to solve FrozenLake with various RL-Techniques at a beginner level.
 ## Deterministic
 - [x] Q-Tables
 - [x] Deep Q Learning(no fixed Targets, no Memory, no Double-Q)
-- [ ] Policy Gradient
+- [x] Policy Gradient
 
-The remaining Techniques won't be tested in this simple case.
+The remaining techniques won't be tested in this simple case.
 
 ## Stochastic
 To be researched in depth.
@@ -44,4 +44,17 @@ Exploration and Learning Rate are big factors of convergence-time and -probabili
   <img src="./Plots/QLearning/8x8det/reward.png" width="425" />
   <img src="./Plots/QLearning/8x8det/meanreward.png" width="425" /> 
   <img src="./Plots/QLearning/8x8det/meanqvalue.png" width="425" />
+</p>
+
+## PolicyGradient Deterministic 4x4
+<p float="left">
+  <img src="./Plots/PolicyGradient/4x4det/reward.png" width="425" />
+  <img src="./Plots/PolicyGradient/4x4det/meanreward.png" width="425" /> 
+</p>
+
+## PolicyGradient Deterministic 8x8
+Tends to fall to zero inbetween very high to high results
+<p float="left">
+  <img src="./Plots/PolicyGradient/8x8det/reward.png" width="425" />
+  <img src="./Plots/PolicyGradient/8x8det/meanreward.png" width="425" /> 
 </p>
