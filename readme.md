@@ -53,7 +53,7 @@ Exploration and Learning Rate are big factors of convergence-time and -probabili
 </p>
 
 ## PolicyGradient Deterministic 8x8
-Tends to fall to zero inbetween very high to high results
+Tends to fall to zero inbetween very high to mid results
 <p float="left">
   <img src="./Plots/PolicyGradient/8x8det/reward.png" width="425" />
   <img src="./Plots/PolicyGradient/8x8det/meanreward.png" width="425" /> 
