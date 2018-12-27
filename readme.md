@@ -10,8 +10,8 @@ The remaining techniques won't be tested in this simple case.
 
 ## Stochastic
 To be researched in depth.
-Current guess is estimating a distribution of actions instead of reward-values.
-Maybe Policy Gradients or N-Step Q-Learning could solve it?
+Maybe N-Step Q-Learning could solve it?
+How about trying to solve it with Dynamic Programming techniques such as Policy Evaluation/Iteration or Value Iteration?(Missing action probability distribution)
 
 # Results 
 Exploration and Learning Rate are big factors of convergence-time and -probability 
