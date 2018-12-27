@@ -16,7 +16,7 @@ observation_space = env.observation_space.n
 network = nn.Sequential(nn.Linear(observation_space,4),nn.ReLU(),nn.Linear(4,action_space))
 criterion = nn.MSELoss()
 optimizer = opt.SGD(network.parameters(),lr=0.1)
-#Lower Learning Rate And More Exploration Makes Convergence More Likely
+#Lower Learning Rate And more Exploration makes Convergence more likely
 
 epochs = 100000
 max_epsilon = 1.0
