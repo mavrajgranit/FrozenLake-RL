@@ -14,8 +14,8 @@ The remaining techniques won't be tested in this simple case.
 - [ ] Policy Gradient
 
 To be researched in depth.
-Current guess is estimating a distribution of actions instead of reward-values.
-Maybe Policy Gradients or N-Step Q-Learning could solve it?
+Maybe N-Step Q-Learning could solve it?
+How about trying to solve it with Dynamic Programming techniques such as Policy Evaluation/Iteration or Value Iteration?(Missing action probability distribution)
 
 # Results 
 Exploration and Learning Rate are big factors of convergence-time and -probability 
@@ -68,8 +68,6 @@ Tends to fall to zero inbetween very high to mid results
 <a name="sto"></a>
 # Stochastic
 ## Q-Tables Stochastic 4x4
-<!-- ![qtablemeanreward](./Plots/QTables/meanreward.png) ![qtablemeanscore](./Plots/QTables/meanscore.png) ![qtableqvalues](./Plots/QTables/qvalues.png) -->
-
 <p float="left">
   <img src="./Plots/QTables/4x4sto/reward.png" width="425" />
   <img src="./Plots/QTables/4x4sto/meanreward.png" width="425" /> 
